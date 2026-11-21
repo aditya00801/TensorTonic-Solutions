@@ -1,0 +1,9 @@
+- `@` — Matrix multiplication.
+- `.T` — Transpose.
+- `np.max()` — Find row maximum.
+- `np.exp()` — Exponential.
+- `np.diag()` — Extract diagonal.
+- `np.sum()` — Row-wise summation.
+- `np.log()` — Natural logarithm.
+- `np.mean()` — Average loss.
+- `float()` — Convert NumPy result into Python float.
