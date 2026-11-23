@@ -9,12 +9,8 @@ def bernoulli_pmf_and_moments(x: list, p: float) -> dict:
     pmf = np.where(x==1 , p, 
                   np.where(x == 0 , 1-p, 0))
 
-    mean = p
-
-    variance = p * (1 - p)
-
     return {
         "pmf": pmf,
-        "mean": (float(mean)),
-        "variance": float(variance)
+        "mean": (float(p)),
+        "variance": float(p * (1 - p))
     }
